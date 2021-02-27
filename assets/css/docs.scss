@@ -51,6 +51,7 @@ a {
 	height: 100%;
 	overflow: hidden;
 	color: $sidebar-color;
+	background-color: $sidebar-background-color;
 
 	.sidebar-main {
 		height: 100%;
@@ -120,6 +121,7 @@ a {
   width: 100%;
 	overflow-y: auto;
 	color: $content-color;
+	background-color: $content-background-color;
 	line-height: 1.7;
 	word-wrap: break-word;
 }

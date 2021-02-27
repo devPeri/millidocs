@@ -3,7 +3,9 @@
 		<img src="{{ "/assets/images/menu.svg" | relative_url }}" class="menu-icon" id="menu" />
 		<img src="{{ "/assets/images/close.svg" | relative_url }}" class="close-icon" id="close" />
 	</div>
-	{% include search.html %}
+	{% if site.disable_search != true %}
+		{% include search.html %}
+	{% endif %}
 	<div class="sidebar-main">
 		{% include navigation.html %}
 		{% include search-results.html %}

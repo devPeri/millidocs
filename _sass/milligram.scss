@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  color: #606c76;
+  color: $content-color;
   font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   font-size: 1.6em;
   font-weight: 300;
@@ -69,8 +69,8 @@ input[type='reset']:focus,
 input[type='reset']:hover,
 input[type='submit']:focus,
 input[type='submit']:hover {
-  background-color: #606c76;
-  border-color: #606c76;
+  background-color: $content-color;
+  border-color: $content-color;
   color: #fff;
   outline: 0;
 }
@@ -116,8 +116,8 @@ input[type='reset'].button-outline:hover,
 input[type='submit'].button-outline:focus,
 input[type='submit'].button-outline:hover {
   background-color: transparent;
-  border-color: #606c76;
-  color: #606c76;
+  border-color: $content-color;
+  color: $content-color;
 }
 
 .button.button-outline[disabled]:focus, .button.button-outline[disabled]:hover,
@@ -154,7 +154,7 @@ input[type='submit'].button-clear:focus,
 input[type='submit'].button-clear:hover {
   background-color: transparent;
   border-color: transparent;
-  color: #606c76;
+  color: $content-color;
 }
 
 .button.button-clear[disabled]:focus, .button.button-clear[disabled]:hover,
@@ -170,7 +170,7 @@ input[type='submit'].button-clear[disabled]:hover {
 }
 
 code {
-  background: #f4f5f6;
+  background: $content-background-color;
   border-radius: .4rem;
   font-size: 86%;
   margin: 0 .2rem;
@@ -179,7 +179,7 @@ code {
 }
 
 pre {
-  background: #f4f5f6;
+  background: $content-background-color;
   border-left: 0.3rem solid $accent-color;
   overflow-y: hidden;
 }
@@ -446,7 +446,7 @@ a {
 }
 
 a:focus, a:hover {
-  color: #606c76;
+  color: $content-color;
 }
 
 dl,

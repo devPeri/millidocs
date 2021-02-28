@@ -5,8 +5,6 @@
  * @author Lea Verou
  */
 
-@if not $disable-prism {
-	
 code[class*="language-"],
 pre[class*="language-"] {
 	color: black;
@@ -137,6 +135,4 @@ pre[class*="language-"] {
 
 .token.entity {
 	cursor: help;
-}
-
 }

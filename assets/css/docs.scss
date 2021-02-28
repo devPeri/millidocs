@@ -5,9 +5,7 @@
 
 @import 'milligram';
 
-@if not $disable-prism {
-	@import 'prism';
-}
+@import 'prism';
 
 html, body {
 	margin: 0;

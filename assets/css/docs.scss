@@ -3,7 +3,9 @@
 
 @import 'variables';
 
-@import 'milligram';
+{% unless site.disable-milligram %}
+	@import 'milligram';
+{% endunless %}
 
 {% unless site.disable-prism %}
 	@import 'prism';

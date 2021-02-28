@@ -5,7 +5,9 @@
 
 @import 'milligram';
 
-@import 'prism';
+(% unless site.disable-prism %)
+	@import 'prism';
+(% endunless %)
 
 html, body {
 	margin: 0;
